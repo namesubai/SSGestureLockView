@@ -15,6 +15,7 @@
 		A5F616F7216E0E9E00DE44D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F616F6216E0E9E00DE44D4 /* main.m */; };
 		A5F61701216E0E9E00DE44D4 /* SSGestureLockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F61700216E0E9E00DE44D4 /* SSGestureLockViewTests.m */; };
 		A5F6170C216E0E9E00DE44D4 /* SSGestureLockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6170B216E0E9E00DE44D4 /* SSGestureLockViewUITests.m */; };
+		A5F6171B216E0EB700DE44D4 /* SSGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6171A216E0EB700DE44D4 /* SSGestureLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A5F61707216E0E9E00DE44D4 /* SSGestureLockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSGestureLockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F6170B216E0E9E00DE44D4 /* SSGestureLockViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGestureLockViewUITests.m; sourceTree = "<group>"; };
 		A5F6170D216E0E9E00DE44D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F61719216E0EB700DE44D4 /* SSGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSGestureLockView.h; sourceTree = "<group>"; };
+		A5F6171A216E0EB700DE44D4 /* SSGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSGestureLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A5F616E6216E0E9C00DE44D4 /* SSGestureLockView */ = {
 			isa = PBXGroup;
 			children = (
+				A5F61719216E0EB700DE44D4 /* SSGestureLockView.h */,
+				A5F6171A216E0EB700DE44D4 /* SSGestureLockView.m */,
 				A5F616E7216E0E9C00DE44D4 /* AppDelegate.h */,
 				A5F616E8216E0E9C00DE44D4 /* AppDelegate.m */,
 				A5F616EA216E0E9C00DE44D4 /* ViewController.h */,
@@ -265,6 +270,7 @@
 				A5F616EC216E0E9C00DE44D4 /* ViewController.m in Sources */,
 				A5F616F7216E0E9E00DE44D4 /* main.m in Sources */,
 				A5F616E9216E0E9C00DE44D4 /* AppDelegate.m in Sources */,
+				A5F6171B216E0EB700DE44D4 /* SSGestureLockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
